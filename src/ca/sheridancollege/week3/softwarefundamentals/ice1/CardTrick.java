@@ -52,7 +52,7 @@ public class CardTrick {
         
         Card LuckyCard= new Card();
         LuckyCard.setValue(4);
-        LuckyCard.setSuit(Card.SUIT[3]);
+        LuckyCard.setSuit(Card.SUITS[3]);
          boolean matchToBeConfirmed=false;
         for(int i=0; i<magicHand.length;i++)
         {
